@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: serif;
+}
+#navbar {
+    background-image: url(images/vbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+#navbar nav{
+    background-color: #000000;
+    height: 70px;
+}
+#navbar nav #active{
+    color: #fff;
+}
+#navbar .container a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#navbar .container a:hover{
+    color: #ffffffff;
+}
+#navbar .container .dropdown button{
+    padding-left: 15px;
+    color: #afbdce  ;
+}
+#navbar .container .dropdown button:hover{
+    color: #ffffffff;
+}
+#navbar .container #logo img{
+    width: 100px;
+}
+#navbar #header .container .row{
+    margin-top: 130px;
+}
+#navbar #header .container .row h1{
+    color: #ffffffff;
+    font-family: serif;
+    font-size: 52px;    
+}
+#navbar #header .container .row p{
+    color: #ffffffff;
+    font-size: larger;
+}
+#navbar #header .container .row .btn button span{
+    color: #ffffffff;
+    text-decoration: none;
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: small;
+    letter-spacing: 2px;
+}
+#navbar #header .container #whatsapp i{
+    color: #28d045;
+    font-size: 50px;
+    position: fixed;
+    right: 80px;
+    bottom: 50px;
+    text-shadow: 0px 0px 10px	#34B7F1;
+}
+#cbnr .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#cbnr .container h1{
+    font-family: serif;
+    color: #000000;
+    margin-bottom: 50px;
+}
+#cbnr .container img{
+    width: 500px;
+}
+#cbnr .container form{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+#cbnr .container form span{
+    color: #000000;
+    font-size: larger;
+}
+#cbnr .container form label{
+    margin-bottom: 20px;
+}
+#cbnr .container form button{
+    color: #ffffffff;
+    text-decoration: none;
+    background-color: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: large;
+    letter-spacing: 2px;
+}
+#cbnr .container form #name,#email{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#cbnr .container form #message{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+#footer{
+    background-color: #000000;
+    padding-top: 80px;
+}
+#footer .container .row a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer .container h4,h5{
+    color: #fff;
+    font-family: serif;
+}
+#footer .container p{
+    color: #fff;
+}
+#footer .container p .fa{
+    font-size: 30px;
+}
+#footer .container a .fa-angle-double-right{
+    font-size: 18px;
+}
+#footer .container a img{
+    width: 30px;
+}
+#footer .container .col-md-6 a .fa-envelope,.fa-facebook-square{
+    font-size: 30px;
+}
+#footer .container .col-md-6 #lh a{
+    margin-bottom: 100%;
+}
+#footer .container hr{
+    color: #fff;
+}
+#footer .container .col-lg-6{
+    margin-bottom: 50px;
+}
+#footer .container .col-md-6{
+    margin-bottom: 50px;
+}
+#footer .container b{
+    color: #fff;
+    line-height: 30px;
+    font-family: serif;
+}
+#footer .container .col a{
+    font-size: 30px;
+    padding: 20px;
+}
+@media screen and (max-width:768px) {
+    #footer .container .justify-content-around{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    p{
+        font-size: medium;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    h5{
+        font-size: large;
+    }
+    #navbar #header .container #whatsapp i{
+        font-size: 50px;
+        position: fixed;
+        right: 60px;
+        bottom: 40px;
+    }
+    #cbnr .container{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    #cbnr .container h1{
+        font-family: serif;
+        color: #000000;
+        margin-bottom: 40px;
+    }
+    #cbnr .container img{
+        width: 400px;
+    }
+    #cbnr .container form{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 16px;
+    }
+    #cbnr .container form span{
+        color: #000000;
+        font-size: large;
+    }
+    #cbnr .container form label{
+        margin-bottom: 16px;
+    }
+    #cbnr .container form button{
+        color: #ffffffff;
+        text-decoration: none;
+        background-color: #000000;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: medium;
+        letter-spacing: 1.5px;
+    }
+    #cbnr .container form #name,#email{
+        width: 350px;
+        height: 35px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    #cbnr .container form #message{
+        width: 350px;
+        height: 150px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #footer .container .justify-content-around a,b,p{
+        font-size: small;
+    }
+    #footer .container .justify-content-around h5{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 990px) {
+    #navbar .container a{
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #navbar .container .dropdown button{
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+    #navbar .container #logo a{
+        font-size: x-small;
+        letter-spacing: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: 0.5s ease;
+    }
+    #navbar #header .container .row h1{
+        font-size: 50px;
+    }
+    #navbar #header .container .row p{
+        font-size: x-small;
+    }
+    #navbar #header .container .row .btn button span{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #navbar #header .container #whatsapp i{
+        font-size: 50px;
+        position: fixed;
+        right: 50px;
+        bottom: 30px;
+    }
+    #cbnr .container{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cbnr .container h1{
+        font-family: serif;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    #cbnr .container img{
+        width: 300px;
+    }
+    #cbnr .container form{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 5px;
+    }
+    #cbnr .container form span{
+        color: #000000;
+        font-size: large;
+    }
+    #cbnr .container form label{
+        margin-bottom: 10px;
+    }
+    #cbnr .container form button{
+        color: #ffffffff;
+        text-decoration: none;
+        background-color: #000000;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: medium;
+        letter-spacing: 1.5px;
+    }
+    #cbnr .container form #name,#email{
+        width: 300px;
+        height: 30px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    #cbnr .container form #message{
+        width: 300px;
+        height: 100px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #footer .container .justify-content-around h5{
+        font-size: large;
+    }
+}
+@media screen and (max-width: 766px) {
+    #navbar .container a{
+        margin-top: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #navbar .container .dropdown button{
+        margin-top: 12px;
+        padding-left: 8px;
+    }
+    #navbar .container #logo a{
+        font-size: xx-small;
+        letter-spacing: 3px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        transition: 0.5s ease;
+    }
+    #navbar nav{
+        background-color: transparent;
+        height: auto;
+    }
+    #navbar .container #mynavbar{
+        background-color: #000000;
+    }
+    #navbar #header .container .row h1{
+        font-size: 35px;
+    }
+    #navbar #header .container .row p{
+        font-size: xx-small;
+    }
+    #navbar #header .container .row button span{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #navbar #header .container #whatsapp i{
+        font-size: 40px;
+        position: fixed;
+        right: 40px;
+        bottom: 20px;
+    }
+    #cbnr .container form{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 514px) {
+    #navbar #header .container .row h1{
+        font-size: 25px;
+    }
+    #navbar #header .container .row p{
+        font-size: 7px;
+    }
+    #navbar #header .container .row button span{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 380px) {
+    #cbnr .container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #cbnr .container h1{
+        font-family: serif;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    #cbnr .container img{
+        width: 250px;
+    }
+    #cbnr .container form #name,#email{
+        width: 250px;
+        height: 30px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    #cbnr .container form #message{
+        width: 250px;
+        height: 150px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        padding: 10px;
+    }
+}

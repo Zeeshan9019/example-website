@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: serif;
+}
+#navbar {
+    background-image: url(images/gbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+#navbar nav{
+    background-color: #000000;
+    height: 70px;
+}
+#navbar nav #active{
+    color: #fff;
+}
+#navbar .container a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#navbar .container a:hover{
+    color: #ffffffff;
+}
+#navbar .container .dropdown button{
+    padding-left: 15px;
+    color: #afbdce  ;
+}
+#navbar .container .dropdown button:hover{
+    color: #ffffffff;
+}
+#navbar .container #logo img{
+    width: 100px;
+}
+#navbar #header .container .row{
+    margin-top: 130px;
+}
+#navbar #header .container .row h1{
+    color: #ffffffff;
+    font-family: serif;
+    font-size: 52px;    
+}
+#navbar #header .container .row p{
+    color: #ffffffff;
+    font-size: larger;
+}
+#navbar #header .container .row .btn button span{
+    color: #ffffffff;
+    text-decoration: none;
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: small;
+    letter-spacing: 2px;
+}
+#navbar #header .container #whatsapp i{
+    color: #28d045;
+    font-size: 50px;
+    position: fixed;
+    right: 80px;
+    bottom: 50px;
+    text-shadow: 0px 0px 10px	#34B7F1;
+}
+#gallery .container .btn{
+    padding: 0%;
+}
+#gallery .container .modal-content{
+    background-color: transparent;
+    margin-top: 80px;
+}
+#gallery .container .modal-header h4{
+    color: #fff;
+}
+#gallery .container .modal-header .btn-close{
+    color: #fff;
+}
+#gallery .container button img{
+    width: 300px;
+    padding: 15px;
+}
+#gallery .container .modal-body img{
+    width: 466px;
+}
+#gallery .container h1{
+    margin-top: 100px;
+    font-family: serif;
+}
+#gallery .container p{
+    color: #5e5d5d;
+}
+#gallery .container .modal-footer .fa-chevron-left, .fa-chevron-right{
+    color: #fff;
+    font-size: 30px;
+}
+#gallery .container .modal-footer .fa-chevron-left:hover{
+    font-size: 35px;
+}
+#gallery .container .modal-footer .fa-chevron-right:hover{
+    font-size: 35px;
+}
+@media screen and (max-width: 1202px) {
+    #gallery .container button img{
+        width: 250px;
+        padding: 15px;
+    }
+    #gallery .container h1{
+        margin-top: 80px;
+        border-bottom: 5px solid #40739e;
+        width: 260px;
+    }
+}
+@media screen and (max-width:576px) {
+    #gallery .container .modal-body img{
+        width: 400px;
+    }
+    #gallery .container h1{
+        margin-top: 70px;
+        border-bottom: 5px solid #40739e;
+        width: 260px;
+    }
+}
+@media screen and (max-width:451px) {
+    #gallery .container .modal-body img{
+        width: 380px;
+    }
+    #gallery .container h1{
+        margin-top: 50px;
+        border-bottom: 5px solid #40739e;
+        width: 260px;
+    }
+}
+@media screen and (max-width:429px) {
+    #gallery .container .modal-body img{
+        width: 350px;
+    }
+}
+@media screen and (max-width:405px) {
+    #gallery .container .modal-body img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:343px) {
+    #gallery .container .modal-body img{
+        width: 250px;
+    }
+}
+#bnr .container .row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#bnr .container h1{
+    font-family: serif;
+}
+#bnr .container p{
+    text-align: justify;
+}
+#footer{
+    background-color: #000000;
+    padding-top: 80px;
+}
+#footer .container .row a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer .container h4{
+    color: #fff;
+}
+#footer .container p{
+    color: #fff;
+}
+#footer .container p .fa{
+    font-size: 30px;
+}
+#footer .container a .fa-angle-double-right{
+    font-size: 18px;
+}
+#footer .container a img{
+    width: 30px;
+}
+#footer .container .col-md-6 a .fa-envelope,.fa-facebook-square{
+    font-size: 30px;
+}
+#footer .container .col-md-6 #lh a{
+    margin-bottom: 100%;
+}
+#footer .container hr{
+    color: #fff;
+}
+#footer .container .col-lg-6{
+    margin-bottom: 50px;
+}
+#footer .container .col-md-6{
+    margin-bottom: 50px;
+}
+#footer .container h4,h5{
+    color: #fff;
+    font-family: serif;
+}
+#footer .container b{
+    color: #fff;
+    line-height: 30px;
+    font-family: serif;
+}
+#footer .container .col a{
+    font-size: 30px;
+    padding: 20px;
+}
+@media screen and (max-width:768px) {
+    #footer .container .justify-content-around{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    p{
+        font-size: medium;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    h5{
+        font-size: large;
+    }
+    #navbar #header .container #whatsapp i{
+        font-size: 50px;
+        position: fixed;
+        right: 60px;
+        bottom: 40px;
+    }
+    #bnr .container img{
+        width: 450px;
+    }
+    #bnr .container .row{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    #bnr .container h1{
+        font-size: xx-large
+    }
+    #bnr .container p{
+        font-size: medium;
+    }
+    #footer .container .justify-content-around a,b,p{
+        font-size: small;
+    }
+    #footer .container .justify-content-around h5{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 990px) {
+    #navbar .container a{
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #navbar .container .dropdown button{
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+    #navbar .container #logo a{
+        font-size: x-small;
+        letter-spacing: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: 0.5s ease;
+    }
+    #navbar #header .container .row h1{
+        font-size: 50px;
+    }
+    #navbar #header .container .row p{
+        font-size: x-small;
+    }
+    #navbar #header .container .row .btn button span{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #navbar #header .container #whatsapp i{
+        font-size: 50px;
+        position: fixed;
+        right: 50px;
+        bottom: 30px;
+    }
+    #bnr .container h1{
+        font-size: x-large;
+        text-align: center;
+    }
+    #bnr .container p{
+        font-size: medium;
+    }
+    #footer .container .justify-content-around h5{
+        font-size: large;
+    }
+}
+@media screen and (max-width: 766px) {
+    #navbar .container a{
+        margin-top: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #navbar .container .dropdown button{
+        margin-top: 12px;
+        padding-left: 8px;
+    }
+    #navbar .container #logo a{
+        font-size: xx-small;
+        letter-spacing: 3px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        transition: 0.5s ease;
+    }
+    #navbar nav{
+        background-color: transparent;
+        height: auto;
+    }
+    #navbar .container #mynavbar{
+        background-color: #000000;
+    }
+    #navbar #header .container .row h1{
+        font-size: 35px;
+    }
+    #navbar #header .container .row p{
+        font-size: xx-small;
+    }
+    #navbar #header .container .row button span{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #navbar #header .container #whatsapp i{
+        font-size: 40px;
+        position: fixed;
+        right: 40px;
+        bottom: 20px;
+    }
+    #gallery .container button img{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 514px) {
+    #navbar #header .container .row h1{
+        font-size: 25px;
+    }
+    #navbar #header .container .row p{
+        font-size: 7px;
+    }
+    #navbar #header .container .row button span{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #bnr .container img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 420px){
+    #bnr .container img{
+        width: 300px;
+    }
+    #gallery .container button img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 320px){
+    #bnr .container img{
+        width: 250px;
+    }
+    #gallery .container button img{
+        width: 250px;
+    }
+}
